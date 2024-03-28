@@ -1,0 +1,14 @@
+<model-viewer src="1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-2" data-position="0.3546027263558197m 0.47321758705862194m 0.6009920409939129m" data-normal="0.010209871143307347m 0.13489001434214712m 0.9908079746156733m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">鴿子</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
